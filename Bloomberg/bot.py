@@ -86,6 +86,5 @@ class Bot(DesktopBot):
     def not_found(self, label):
         print(f"Element not found: {label}")
 
-
 if __name__ == '__main__':
     Bot.main()
